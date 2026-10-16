@@ -20,7 +20,7 @@ public record ContainerConfig(
             );
         }
 
-        if (command == null || command().isEmpty()) {
+        if (command == null || command.isEmpty()) {
             throw new IllegalArgumentException(
                     "컨테이너 명령어를 입력해주세요."
             );
