@@ -3,8 +3,6 @@
 Rimuru는 Linux의 namespace, cgroup v2, OverlayFS를 직접 사용해 만든 학습용 컨테이너 런타임입니다.
 Docker 이미지를 root filesystem으로 변환한 뒤 격리된 환경에서 사용자가 지정한 명령을 실행합니다.
 
-> 실제 서비스용 런타임이 아니라 Linux 컨테이너가 어떻게 만들어지는지 학습하기 위한 프로젝트입니다.
-
 ## 동작 방식
 
 `rimuru run`을 실행하면 다음 순서로 컨테이너를 준비합니다.
